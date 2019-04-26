@@ -10,7 +10,7 @@ import Sequelize from 'sequelize'
 
 export const Plugin = CreatePlugin('merge')
 .configuration({
-  name: 'Core',
+  name: 'Sequelize-Core',
   injectableParam: 'SQL'
 })
 .hooks({
