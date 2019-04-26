@@ -20,7 +20,6 @@
     "sequelize": "^5.7.6"
   },
   "devDependencies": {
-    "@types/sequelize": "^4.27.48",
     "typescript": "^3.4.5"
   },
   "repository": {

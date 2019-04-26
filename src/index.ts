@@ -6,15 +6,17 @@
  */
 
 import {CreatePlugin} from "@pomegranate/plugin-tools";
-import Sequelize from 'sequelize'
+import {Sequelize} from 'sequelize'
+import * as SequelizeModule from 'sequelize'
+export {SequelizeModule}
 
 export const Plugin = CreatePlugin('merge')
-.configuration({
-  name: 'Sequelize-Core',
-  injectableParam: 'SQL'
-})
-.hooks({
-  load: () => {
-    return {Sequelize: Sequelize}
-  }
-})
+  .configuration({
+    name: 'Sequelize-Core',
+    injectableParam: 'SQL'
+  })
+  .hooks({
+    load: () => {
+      return {Sequelize: Sequelize}
+    }
+  })
