@@ -1,0 +1,34 @@
+{
+  "name": "@pomofficial/sequelize-core",
+  "version": "0.0.1",
+  "description": "The base Pomegranate plugin for downstream database specific Sequelize plugins.",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pomegranate",
+    "Database",
+    "SQL",
+    "Sequelize"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^1.2.2",
+    "sequelize": "^5.7.6"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.27.48",
+    "typescript": "^3.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PomOfficial/sequelize-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PomOfficial/sequelize-core/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/sequelize-core#readme"
+}
