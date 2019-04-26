@@ -2,14 +2,20 @@
 # yarn lockfile v1
 
 
-"@pomegranate/plugin-tools@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.2.tgz#4d84adcf50acdbae89572c99137c5c3315c70533"
-  integrity sha512-9jz6Q02tCjMq/2Dxd8doaOzVJGUup9xq67R82FvQykEEoB0+GiRKSX6DoXTO17C3/duneU4a9q4L1zFEifs1yA==
+"@pomegranate/plugin-tools@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.3.tgz#83f92e896f9a10f7ea2ee8dae48d25b854eaafec"
+  integrity sha512-ssJAxPHfVC0J/HZKCt923s49J/w4o57x1lPSRRd3GYnu8z/IavhRMfwgF/fnbfuxniCdwhzX1WcVUXz/bJyc4w==
   dependencies:
+    "@types/lodash" "^4.14.123"
     bluebird "^3.5.3"
     fs-extra "^7.0.1"
     lodash "^4.17.11"
+
+"@types/lodash@^4.14.123":
+  version "4.14.123"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.123.tgz#39be5d211478c8dd3bdae98ee75bb7efe4abfe4d"
+  integrity sha512-pQvPkc4Nltyx7G1Ww45OjVqUsJP4UsZm+GWJpigXgkikZqJgRm4c48g027o6tdgubWHwFRF15iFd+Y4Pmqv6+Q==
 
 "@types/node@*":
   version "11.13.7"
