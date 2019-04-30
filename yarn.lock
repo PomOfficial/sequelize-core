@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@pomegranate/plugin-tools@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.3.tgz#83f92e896f9a10f7ea2ee8dae48d25b854eaafec"
-  integrity sha512-ssJAxPHfVC0J/HZKCt923s49J/w4o57x1lPSRRd3GYnu8z/IavhRMfwgF/fnbfuxniCdwhzX1WcVUXz/bJyc4w==
+"@pomegranate/plugin-tools@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@pomegranate/plugin-tools/-/plugin-tools-1.2.4.tgz#bf26c0f6fb173431f65b07e0176a3561989070c9"
+  integrity sha512-cBBulkITPn7nPgFmVYANqWOGJAT3bL1x7krmhH5YXzyQ40+nuXukA35ln+p0/qmvgLP7upHOw9pkEqgwD0l2eg==
   dependencies:
     "@types/lodash" "^4.14.123"
     bluebird "^3.5.3"

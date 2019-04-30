@@ -3,6 +3,13 @@
   "version": "0.0.5",
   "description": "The base Pomegranate plugin for downstream database specific Sequelize plugins.",
   "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Plugins/**/*",
+    "Readme.md",
+    "LICENCE"
+  ],
   "scripts": {
     "prepublishOnly": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,10 +23,12 @@
   "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
   "license": "MIT",
   "dependencies": {
-    "@pomegranate/plugin-tools": "^1.2.3",
+    "@pomegranate/plugin-tools": "^1.2.4",
+    "lodash": "^4.17.11",
     "sequelize": "^5.7.6"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.123",
     "typescript": "^3.4.5"
   },
   "repository": {
